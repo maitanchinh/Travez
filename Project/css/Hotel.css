@@ -1,0 +1,24 @@
+/* CSS Document */
+body{
+	background-color:#E7E6DC;
+}
+.container{
+	width:50%;
+	float:left;
+}
+.product{
+	width:90%;
+	float:right;
+}
+.info{
+	width:50%;
+	float:left;
+}
+.content{
+	width:90%;
+	float:left;
+}
+.fixDisplay {
+	padding: 20px 0;
+	border-bottom: solid 1px #c0c0c0;
+}

@@ -1,0 +1,134 @@
+@charset "utf-8";
+/* CSS Document */
+.middle{
+	height:600px;				
+}
+.item{
+	height:auto; 
+	z-index:-1;
+}
+.container{
+	width:80%;
+}
+header{
+	border-bottom: solid 1px #c0c0c0;
+	padding: 17px 0 20px;	
+}
+.navbar-default {
+	border: none;
+	background: none;
+}
+.navbar {
+	border-radius: 0;
+	margin: 0;
+}
+.navbar-brand {
+	max-width:50%;
+	padding: 0;
+	height: 70px
+}
+.navbar-brand img {
+	width: auto;	
+	height: 151%;
+	position: relative;
+	left: 50%;
+	border-radius: 20px;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fe9b00;
+	font-family: Arial;
+	font-weight: bold;
+	font-size: 15px;
+	text-transform: uppercase;
+}		
+.navbar-nav {
+	padding-top: 20px;
+}
+.navbar-toggle {
+	margin-top: 10px;
+}
+.selected, 
+.navbar-default .navbar-nav > li > a: focus, .navbar-default .navbar-nav > li >  a:hover	{
+	color: #090909 !important;
+}
+.fixDisplay {
+	padding: 20px 0;
+	border-bottom: solid 1px #c0c0c0;
+}
+article { 
+	width:75%;
+	max-height:600px;
+	float:left;
+	background-color:#FFFFFF;
+	color:#FFF;
+}
+article #content {
+	width:100%;	
+	height:auto;
+	float:left;
+	padding-bottom:3.2%;
+}
+article #content div { 
+	width:29%;
+	float:left;
+	margin-top:3.2%;
+	margin-left:3.2%;
+}
+article #content div img { 
+	width:85%;
+	height:auto;
+}
+article #content div p {
+	color:#00F;
+	text-align:center;
+	margin:0px;
+	font-size:80%;	
+}		
+article #content div p del {
+	color:#666;
+}
+aside { 
+	max-height:600px;
+	display:block;
+	color:#456;
+	overflow:scroll;	
+}
+aside table{
+	height:600px;
+	padding: 5px;
+}
+aside table td{
+	text-align:justify;
+}
+aside #sidebar {
+	padding: 0.5em 1em;
+	font-size: 85%;
+}
+footer {
+	clear:both;	
+	width:100%;
+	height:11.5em;
+	color:#000000;	
+	font-size: 85%;
+	padding:1.8em 0 0 0;
+	background-color:#D3D3CF;
+}
+/* Responsive */	
+@media screen and (max-width: 768px) {
+	body { width:100%;}
+	article { width:100%; height:auto; float:none; }
+	article #content { padding-right:0%; }
+	article #content div img { width:80%; height:auto; }
+	aside { width:100%; height:auto; float:left; }
+	aside #sidebar { font-size: 80%; }
+	footer { height:auto; font-size: 80%;}
+}
+@media screen and (max-width: 480px) {
+	body { width:100%;}
+	article { width:100%; height:auto; float:none; }
+	article #content { padding-right:0%; }
+	article #content div img { width:80%; height:auto; }
+	aside { width:100%; height:auto; float:left; }
+	aside #sidebar { font-size: 75%; }
+	footer { height:auto; font-size: 75%; }
+}
